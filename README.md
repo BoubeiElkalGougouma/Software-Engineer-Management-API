@@ -120,12 +120,12 @@ POST /api/auth/login
 
 Les opérations d'inscription et d'authentification sont séparées des ressources métier.
 
-### 🔑 Autorisation avec Swagger UI
+### Autorisation avec Swagger UI
 
 Après une authentification réussie, le token JWT peut être utilisé directement dans **Swagger UI** grâce au bouton **Authorize 🔒**.
 
 <p align="center">
-  <img src="docs/images/swagger-authorization.png" alt="Autorisation JWT avec Swagger UI" width="900">
+  <img src="docs/images/swagger-authorize.png" alt="Autorisation JWT avec Swagger UI" width="900">
 </p>
 
 Une fois le token renseigné, Swagger UI l'utilise pour effectuer les requêtes vers les endpoints protégés selon les autorisations de l'utilisateur.
